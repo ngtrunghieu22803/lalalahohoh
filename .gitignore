@@ -1,89 +1,7 @@
-# --- Binaries / builds ---
+# --- Build artifacts ---
 bin/
 obj/
-*.exe
-*.dll
 *.pdb
-*.so
-*.a
-*.lib
-*.bin
-*.zopfli.bin
-*.rar
-*.zip
-*.7z
-
-# Keep project sources, ignore shipped tool copies
-LogaChanger*
-patched.zopfli.bin
-dump.rar
-Shopee*.apk
-
-# --- Secrets / credentials / session ---
-session.dat
-**/serverkey.bin
-**/local_seed.b64
-**/kU.txt
-**/seed.b64
-**/real_seed.b64
-**/prov_sig
-settings.json
-*.pem
-*.pfx
-*.key
-.env
-.env.*
-
-# --- Analysis scratch (not source) ---
-acttest/_cand/
-acttest/*.txt
-acttest/*.bk
-samples/cands/
-samples/manifest.txt
-
-# --- Huge media / ROMs / APKs ---
-roms/
-APK/
-APKspam/
-**/*.apk
-**/*.apks
-**/*.xapk
-**/*.img
-**/*.sparseimage
-**/*.enc
-**/*.tar
-**/*.gz
-
-# --- Runtime tooling (adb/scrcpy/ffmpeg) ---
-runtime/
-
-# --- Logs / dumps / temp UI ---
-logs/
-*.log
-adb_*.log
-_uidump*.xml
-_screen*.png
-dump/
-_strdump/
-qua_trinh_giai/
-hexinfo/bin/
-inflate/bin/
-rebundle/bin/
-repack/bin/
-bundler/bin/
-patcher/bin/
-schema/bin/
-local_server/bin/
-acttest/bin/
-_romdl/bin/
-_romdl/finish/bin/
-
-# --- Device backups / personal data ---
-Backups/
-
-# --- Local scratch / analysis noise ---
-samples/*.bin
-samples/*.dat
 *.user
 .vs/
 .idea/
@@ -91,12 +9,40 @@ samples/*.dat
 *.userosscache
 *.sln.docstates
 
-# --- Python cache ---
+# --- Still excluded (too big / not requested) ---
+roms/
+APK/
+APKspam/
+Backups/
+logs/
+dump/
+_strdump/
+qua_trinh_giai/
+*.rar
+*.zopfli.bin
+dump.rar
+patched.zopfli.bin
+
+# --- Temp / analysis noise ---
+*.log
+adb_*.log
+_uidump*.xml
+_screen*.png
+acttest/_cand/
+acttest/*.txt
+acttest/*.bk
+samples/cands/
+samples/manifest.txt
+**/seed.b64
+**/real_seed.b64
+**/prov_sig
 __pycache__/
 *.pyc
 .pytest_cache/
-
-# --- OS junk ---
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# --- Keep env templates only if present ---
+.env.*
+!.env.example
