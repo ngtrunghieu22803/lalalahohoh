@@ -1,0 +1,1613 @@
+A	aaf2cb66222e836e
+A	2026-11-18 01:45
+a	Loga Changer  ·  build 2026-11-18 01:45
+A	http://127.0.0.1:8790
+get_ImgDir	G:\LogaToolChangerV2\schema\bin\Release\net8.0-windows\Images
+A	C:\Users\NTH\AppData\Local\Microsoft\CLR_v4_cache
+get_LicPath	G:\LogaToolChangerV2\schema\bin\Release\net8.0-windows\license.dat
+get_SessPath	G:\LogaToolChangerV2\schema\bin\Release\net8.0-windows\session.dat
+A	Kịch bản — bấm theo text + đợi
+a	Segoe UI
+B	Mở app trước khi chạy
+b	Package:
+C	Mỗi dòng = tìm nút theo TEXT rồi bấm, sau đó đợi N giây.  Bỏ TRỐNG text = chỉ đợi (chờ màn hình load).\nNhiều biến thể ngăn bởi dấu  |   (vd:  Bắt Đầu|START ).  Không tìm thấy → ghi log và bỏ qua bước đó.
+c	Text
+D	Text cần bấm  (bỏ trống = chỉ đợi)
+d	Doi
+E	Đợi (giây)
+e	＋  Thêm dòng
+F	✕  Xoá dòng
+f	▲
+G	▼
+g	💾  Lưu
+H	▶  Lưu & Chạy
+I	0
+i	Số giây không hợp lệ ở dòng 
+J	: '
+j	' (0–600)
+K	Kịch bản chưa có bước nào
+k	Lỗi đọc bảng: 
+L	Consolas
+l	Kích hoạt LogaChanger
+M	app.ico
+m	S
+N	LogaChanger
+n	Kích hoạt bản quyền (online)
+O	Mã máy (HWID):
+o	Copy
+P	License key (mua trên web):
+p	Kích hoạt
+Q	Thoát
+q	LỖI HWID: 
+r	Đang kích hoạt...
+S	Kích hoạt thành công.
+s	OK
+T	Không kích hoạt được: 
+t	runtime
+U	adb.exe
+u	adb
+V	Backups
+v	APK
+W	APKspam
+w	settings.json
+X	yyyy-MM-dd HH:mm
+x	?
+Y	Loga Changer  ·  build 
+y	▤  Change
+Z	⇄  Backup & Restore
+z	🔧  Cài ROM
+aA	🌐  API
+aa	↻
+aB	🖥 Máy của key
+ab	Xem danh sách phone đã gắn vào key + Gỡ 1 máy để trả slot (cài máy khác).
+aC	Log
+ac	⭱ Gửi log phân tích
+aD	🔑 Key: —
+ad	Profile: —
+aE	Số dư: —
+ae	[catalog] không tải được danh mục từ server — dropdown có thể rỗng.
+aF	Android
+af	Tất cả
+aG	Android 
+ag	Brand
+aH	Model
+ah	Country
+aI	Sim
+ai	Tắt GPS
+aJ	Tích = tắt định vị sau khi Đổi máy (mặc định).\nBỏ tích = bật location (app đọc được cell tower; toạ độ vẫn bị giả theo profile).
+aj	Hiện IMEI
+aK	Bỏ tích (mặc định) = ẨN IMEI/IMSI/ICCID/Line1 (app đọc null như máy thật A10+ — chống tell).\nTích = HIỆN IMEI cho app. Áp lúc Đổi máy.
+ak	Cài 10 APK rác
+aL	Bơm file rác
+al	Chỉ áp dụng cho AutoCreat — bỏ tích thì AutoCreat bỏ qua bước cài APK rác
+aM	Chỉ áp dụng cho AutoCreat — bỏ tích thì AutoCreat bỏ qua bước bơm file rác
+am	Tự Random Info (Đổi Máy tự đổi model)
+aN	Tích: mỗi lần Đổi Máy / Backup+Đổi máy server TỰ chọn model ngẫu nhiên (khỏi bấm Random Info).\nBỏ tích: áp ĐÚNG model đang hiện — bấm 'Random Info' để đổi model xem trước, Đổi Máy giữ nguyên model đó.
+an	💾  Backup + Đổi máy
+aO	Sao lưu dữ liệu acc hiện tại RỒI đổi máy ngay trong 1 lần vào recovery (không khởi động lại giữa chừng).
+ao	⚡  AutoCreat
+aP	Random Info
+ap	ĐỔI MÁY
+aQ	💾  Backup
+aq	Backup dữ liệu acc của máy đang chọn (tên lấy từ cột 'Tên Acc', rỗng thì tự sinh).
+aR	♻  Restore
+ar	Restore backup vào máy đang chọn (tên lấy từ cột 'Tên Acc').
+aS	Danh sách phone
+as	↻  Quét + kiểm tra máy
+aT	Quét danh sách máy + kiểm tra: đã cài ROM chưa, có seed chưa (chưa thì tự bơm từ server), serial có khớp recovery ID.
+at	📋  Nhập List Acc
+aU	Dán danh sách tên profile (mỗi dòng 1 tên, theo thứ tự phone trong bảng) -> điền cột Tên Acc hàng loạt để Change/Restore tự lấy tên thư mục đó.
+au	🧹  Dọn tên Acc
+aV	Xoá trắng cột 'Tên Acc' của TẤT CẢ máy (set null) để nhập lại.
+av	check
+aW	recoveryId
+aw	Recovery ID
+aX	serial
+ax	Serial hiện tại
+aY	model
+ay	accName
+aZ	Tên Acc (sửa được)
+az	state
+BA	Trạng thái
+Ba	status
+BB	Tiến trình
+Bb	xong
+BC	ok
+Bc	✔
+BD	thành công
+Bd	lỗi
+BE	✗
+Be	thất bại
+BF	hủy
+Bf	huỷ
+BG	Tìm theo tên:
+Bg	🔄  Quét lại
+BH	Tên BackUp...
+Bh	🍪  Đọc Cookie
+BI	Ten
+Bi	Tên acc
+BJ	GhiChu
+Bj	Ghi chú
+BK	Model (định danh)
+Bk	AVer
+BL	AndroidVer
+Bl	Serial
+BM	Serial (định danh)
+Bm	TT
+BN	Tao
+Bn	Ngày tạo
+BO	SoLan
+Bo	Lượt
+BP	Cuoi
+Bp	Restore Last
+BQ	Size
+Bq	◀  Trước
+BR	Trang 1/1
+Br	Sau  ▶
+BS	♻  Restore acc đã chọn
+Bs	📂  Mở thư mục
+BT	🗑  Xoá backup
+Bt	📁  Chọn thư mục backup
+BU	↺ Mặc định
+Bu	📂  Thư mục backup: 
+BV	Chọn thư mục chứa các backup
+Bv	Sửa acc
+BW	Lưu
+Bw	Huỷ
+BX	Tên acc:
+Bx	Ghi chú:
+BY	[backup] quét 
+By	 acc trong 
+BZ	-
+Bz	dd/MM/yyyy HH:mm
+bA	Trang 
+ba	/
+bB	Tổng: 
+bb	 acc
+bC	  (lọc từ 
+bc	)
+bD	[backup] lỗi hiển thị: 
+bd	Chọn 1 acc trong danh sách
+bE	Không có máy nào đang kết nối.
+be	Chọn máy để restore
+bF	   [
+bf	]   
+bG	Restore vào máy này
+bg	Máy sẽ nhận restore:
+bH	Cần kích hoạt online trước khi Restore.\n
+bh	Máy này đang chạy việc khác — chờ xong rồi hãy restore.
+bI	Restore acc '
+bi	' vào máy 
+bJ	?\nDữ liệu hiện tại trên máy sẽ bị thay thế.
+bj	Xác nhận restore
+bK	khôi phục...
+bk	AppData
+bL	ShopeeData
+bl	Không thấy dữ liệu app trong backup '
+bM	'.
+bm	Đọc Cookie
+bN	Không có cookie trong backup này.
+bn	Cookie Shopee — 
+bO	 (
+bo	 cookie)
+bP	H
+bp	Host
+bQ	N
+bq	Name
+bR	V
+br	Value
+bS	P
+bs	Path
+bT	E
+bt	Hết hạn
+bU	📋  Copy cookie .shopee.vn (name=value; ...)
+bu	Copy ô đang chọn
+bV	explorer.exe
+bv	"
+bW	[backup] không mở được thư mục: 
+bw	XOÁ toàn bộ backup của acc '
+bX	'?\n
+bx	\n\nKhông thể hoàn tác.
+bY	Xác nhận xoá
+by	[backup] đã xoá '
+bZ	'
+bz	[backup] xoá lỗi: 
+CA	TIỆN ÍCH
+Ca	WiFi (SSID|mật khẩu):
+CB	FPT|hoilamgi
+Cb	📶  Cài WiFi
+CC	📱  Xem màn hình
+Cc	📦  Cài APK/XAPK
+CD	🗑  Cài 10 APK rác
+Cd	💽  Bơm file rác 5-30GB
+CE	🎬  Kịch bản (soạn/chạy)
+Ce	Link Shopee:
+CF	https://s.shopee.vn/...
+Cf	🔄  Reboot máy
+CG	🛒  Mở link Shopee
+Cg	📥  Cài APK Đơn
+CH	Cài APK/XAPK đang chọn trong combobox vào máy đang chọn (install -r, GIỮ data/đăng nhập).
+Ch	APK lấy từ thư mục  APK\   ·  rác từ  APKspam\
+CI	logs
+Ci	log-
+CJ	yyyyMMdd
+Cj	.txt
+CK	HH:mm:ss
+Ck	  
+CL	\r\n
+Cl	Sẵn sàng. 
+CM	 máy · Catalog: 
+Cm	 model, 
+CN	 hãng.
+Cn	recovery
+CO	device
+Co	cat /data/local/tmp/loga_id.txt 2>/dev/null
+CP	\r
+Cp	recovery_id=
+CQ	getprop ro.boot.serialno
+Cq	getprop ro.serialno
+CR	cat /proc/cmdline 2>/dev/null
+Cr	androidboot\.serialno=(\S+)
+CS	sideload
+Cs	đã boot
+CT	[quét] không có máy đã boot để kiểm tra.
+Ct	[quét] kiểm tra sức khỏe 
+CU	 máy...
+Cu	kiểm tra ROM...
+CV	pm list packages com.loga.guard
+Cv	com.loga.guard
+CW	⚠ CHƯA cài ROM Loga
+Cw	serial=
+CX	serial LỆCH (id=
+Cx	serial khớp
+CY	kiểm tra seed...
+Cy	⚠ 
+CZ	✓ 
+Cz	ROM OK · định danh OK · 
+cA	⚠ CHƯA có định danh (thiếu mã máy/key) · 
+ca	đang khởi tạo định danh máy...
+cB	✗ không khởi tạo được (máy không vào chế độ nạp)
+cb	-s 
+cC	 reboot
+cc	khởi tạo lỗi: 
+cD	thử lại hoặc liên hệ hỗ trợ
+cd	khởi tạo định danh OK
+cE	✗ khởi tạo lỗi: 
+ce	✓ ROM OK · đã khởi tạo định danh · 
+cF	 — máy đang khởi động lại
+cf	Chưa chọn máy (góc phải trên)
+cG	Chọn 1 máy trong danh sách (tab Change) trước.
+cg	  *
+cH	VN
+ch	^Acc(\d+)$
+cI	Acc
+ci	yyMMddHHmmss
+cJ	*
+cj	[info] model ngẫu nhiên: 
+cK	 
+ck	. Đã nạp Tên Acc cho 
+cL	 máy. Danh tính do SERVER sinh khi Đổi máy.
+cl	[
+cM	] 
+cm	\n
+cN	…
+cn	Chưa có máy — bấm ↻ quét rồi tick máy trong danh sách
+cO	chưa có Recovery ID — không anchor được
+co	reboot vào recovery...
+cP	 reboot recovery
+cp	 — ⏳ 
+cQ	 máy đang chạy
+cq	đang bận — bỏ qua
+cR	máy đang chạy việc khác — bỏ qua lần này
+cr	chờ...
+cS	_
+cs	x
+cT	Nhập TÊN ACC (ô trên) hoặc điền cột 'Tên Acc' cho MỌI máy đã chọn.
+ct	Chưa có phone nào trong danh sách.
+cU	Xoá trắng tên Acc của TẤT CẢ máy trong bảng?
+cu	Dọn tên Acc
+cV	[dọn] đã xoá trắng tên Acc mọi máy
+cv	Lỗi dọn tên Acc: 
+cW	Chưa có phone nào trong danh sách. Bấm 'Quét + kiểm tra máy' trước.
+cw	Nhập List Acc — mỗi dòng 1 tên profile, theo thứ tự phone
+cX	Danh sách restore (double-click để thêm)
+cx	Lọc theo tên hoặc model
+cY	Tên
+cy	Dùng
+cZ	◀
+cz	1/1
+DA	▶
+Da	 phone. Dòng 1 → phone #1 ... (dòng trống = xoá tên máy đó).
+DB	Điền vào bảng
+Db	⤵  Lấy backup chưa dùng
+DC	Lấy 
+Dc	 backup chưa restore lần nào (RestoreCount=0), cũ trước, điền vào ô giữa theo thứ tự phone.
+DD	Đã điền 
+Dd	 tên acc vào bảng. Restore/Change sẽ lấy các tên này làm tên thư mục.
+DE	Lỗi nhập list acc: 
+De	○  đang tắt
+DF	●  ĐANG CHẠY — cổng 
+Df	Bật API
+DG	Tắt API
+Dg	Gọi từ tool/máy khác (thay <ip> = IP LAN của máy chạy tool này; cùng máy dùng localhost).\r\nGET hoặc POST:\r\n
+DH	    http://<ip>:
+Dh	/change?recovery=<recoveryID>&profile=<tên>\r\n
+DI	/restore?recovery=<recoveryID>&profile=<tên>\r\n
+Di	/backup?recovery=<recoveryID>&profile=<tên>\r\n
+DJ	/ping        (kiểm tra sống)\r\n\r\n
+Dj	Hoặc POST JSON body: {"recovery":"<recoveryID>","profile":"<tên>"}\r\n\r\nKẾT QUẢ TRẢ VỀ (JSON):\r\n  { "ok":true/false, "status":"success"|"failed", "msg":"...", "action":"..",\r\n    "recovery":"..", "profile":"..", "serialOld":"serial trước",\r\n    "serialNow":"SERIAL MỚI sau đổi", "model":"..", "backupId":".." }\r\n  → status = success/failed (HTTP 200 nếu OK, 500 nếu lỗi) — áp dụng cho CẢ change/restore/backup.\r\n  → change/restore trả "serialNow" = serial máy SAU khi đổi (spoof) để địa chỉ máy lần sau.\r\n  → change thêm "model" + "backupId"; backup trả "recoverySerial".\r\n\r\n• change  : tạo định danh MỚI vào thư mục <tên> (dùng cấu hình Brand/Model/Android đang chọn ở tab Change).\r\n• restore : khôi phục backup <tên> (thư mục phải có backupid.txt).\r\n• backup  : sao lưu máy vào thư mục <tên>.\r\n\r\nMáy xác định theo recoveryID (đang kết nối). Nhiều recoveryID chạy SONG SONG. Xem tiến trình ở Log.
+DK	API Server — chạy Change / Restore / Backup qua HTTP
+Dk	Cổng:
+DL	[api:
+Dl	action
+DM	profile
+Dm	thiếu recoveryID
+DN	thiếu tên profile
+Dn	license chưa kích hoạt: 
+DO	không thấy máy với recoveryID 
+Do	 (đã kết nối?)
+DP	serialOld
+Dp	backup
+DQ	restore
+Dq	change
+DR	API 
+Dr	 — vào recovery...
+DS	✗ không vào recovery
+Ds	không vào được recovery (anchor 
+DT	API backup...
+Dt	serialNow
+DU	recoverySerial
+Du	✗ backup lỗi
+DV	✔ API backup xong
+Dv	backup lỗi
+DW	backup xong -> 
+Dw	backupid.txt
+DX	profile '
+Dx	' chưa có backup (thiếu backupid.txt)
+DY	API restore...
+Dy	✔ API restore xong
+DZ	✗ restore lỗi
+Dz	restore lỗi
+dA	restore xong -> 
+da	 (serial mới 
+dB	không đọc được cấu hình UI (form đóng?)
+db	logaapply
+dC	API đổi máy...
+dc	backupId
+dD	✔ API đổi xong: 
+dd	✗ change lỗi
+dE	change lỗi: 
+de	change xong -> 
+dF	), serial mới 
+df	action không hợp lệ
+dG	lỗi: 
+dg	Cần kích hoạt online trước khi Đổi máy.\n
+dH	Acc '
+dh	' đã có định danh — ghi đè bằng định danh MỚI?
+dI	Xác nhận Đổi máy
+di	[huỷ] không ghi đè acc '
+dJ	kiểm xác thực...
+dj	NOSETUP
+dK	✗ chưa xác thực (Cài WiFi)
+dk	✗ chưa cài ROM qua tool
+dL	⊘ chưa xác thực [
+dl	]
+dM	✗ chưa có Recovery ID — Đổi đơn 1 lần trước
+dm	chưa có Recovery ID, bỏ qua ở chế độ nhiều máy
+dN	vào recovery...
+dn	✗ không vào được recovery
+dO	đổi máy...
+do	===== ĐỔI MÁY → '
+dP	' =====
+dp	[LỖI] 
+dQ	[OK] 
+dq	✔ đổi xong: 
+dR	✗ 
+dr	^(.*?)(\d+)\s*$
+dS	Hủy
+ds	Chưa kích hoạt online — không xem được danh sách máy của key.
+dT	Máy đã gắn vào key
+dt	Đang tải...
+dU	Recovery ID (định danh máy)
+du	lastSeen
+dV	Lần cuối online
+dv	🗑 Gỡ máy đang chọn
+dW	↻ Tải lại
+dw	Backup + Đổi máy
+dX	Backup acc '
+dx	' vào thư mục cũ, rồi tạo ĐỊNH DANH MỚI vào thư mục:
+dY	[huỷ] chưa nhập tên định danh mới
+dy	Tên thư mục không hợp lệ.
+dZ	Thư mục '
+dz	' đã có định danh — ghi đè?
+EA	Xác nhận
+Ea	[huỷ] không ghi đè '
+EB	chuẩn bị...
+Eb	Backup + Đổi máy (nhiều máy)
+EC	(máy 
+Ec	Acc0
+ED	Backup '
+Ed	' → Đổi sang:
+EE	OK — chạy 
+Ee	 máy
+EF	[huỷ] Backup+Đổi máy nhiều máy
+Ef	[Backup+Đổi máy] chạy 
+EG	 máy SONG SONG
+Eg	✗ chưa có Recovery ID
+EH	chưa có Recovery ID, bỏ qua
+Eh	Acc_
+EI	backup '
+Ei	'...
+EJ	===== BACKUP '
+Ej	' + ĐỔI MÁY → '
+EK	"rm -rf /data/local/tmp/.pchjunk /sdcard/.pchjunk"
+Ek	[LỖI] không vào được recovery
+EL	[LỖI] sao lưu thất bại → DỪNG
+El	đổi máy → 
+EM	...
+Em	✗ đổi máy lỗi
+EN	✔ đổi xong
+En	: 
+EO	[máy] chờ khởi động lại...
+Eo	[máy] ✔ đã lên
+EP	[máy] serial đổi → dùng 
+Ep	[máy] ✖ không thấy máy sau khi chờ
+EQ	⏳  Sẽ dừng sau acc này
+Eq	⏹  DỪNG (xong acc này)
+ER	[auto] ⏳ ĐÃ YÊU CẦU DỪNG — chạy nốt acc hiện tại rồi dừng, không tạo acc mới nữa.
+Er	Cần kích hoạt online trước.\n
+ES	[auto] huỷ — không ghi đè acc '
+Es	kichban.json
+ET	[auto] 1 máy, 1 acc.
+Et	[auto] 1 máy LẶP — bấm lại để dừng.
+EU	[auto] chạy 
+Eu	 (1 acc/máy)
+EV	 (lặp — bấm lại để dừng)
+Ev	--window-x 
+EW	 --window-y 30 --max-size 760
+Ew	╔══ ACC #
+EX	' ══
+Ex	#
+EY	 đổi máy...
+Ey	 scrcpy + APK...
+EZ	 [
+Ez	[apk rác] 
+eA	 ok, 
+ea	 lỗi
+eB	[apk] 
+eb	[auto] bơm file rác
+eC	 wifi...
+ec	 kịch bản...
+eD	 backup...
+ed	✗ không vào recovery (backup)
+eE	không vào được recovery để backup -> dừng vòng
+ee	[LỖI] backup thất bại
+eF	[OK] backup: 
+ef	╚══ XONG '
+eG	' — 
+eg	0.0
+eH	 phút ══
+eh	✖ mất máy sau backup
+eI	mất máy → dừng lặp
+ei	✓ auto xong
+eJ	⏹ đã dừng
+ej	CÀI ROM  ·  1 KEY ↔ 1 PC (HWID) ↔ N PHONE (recovery)
+eK	Key:
+ek	PC (HWID):
+eL	↻  Làm mới danh sách
+el	⟳  Reboot recovery (đã tick)
+eM	🔧  Cài ROM (đã tick)
+em	Cài ROM cho các máy ĐÃ TICK, chạy SONG SONG (anchor theo Recovery ID nên không nhầm máy). Không tick thì cài dòng đang chọn.
+eN	installed
+en	Đã cài?
+eO	todo
+eo	Việc cần làm / tiến trình
+eP	✓
+ep	đã cài
+eQ	chưa cài
+eq	lạ
+eR	reboot
+er	sẵn sàng
+eS	—
+es	 MB
+eT	 GB
+et	Tick máy cần đưa vào recovery (hoặc chọn 1 dòng).
+eU	(chưa kích hoạt)
+eu	Tick máy cần cài (hoặc chọn 1 dòng).
+eV	Cần kích hoạt online trước khi Cài ROM.\n
+ev	Thiếu license key (kích hoạt trước).
+eW	Cài ROM cho 
+ew	 máy đã chọn — SONG SONG (mỗi máy anchor theo Recovery ID nên không nhầm).\n\nMỗi máy sẽ bị XÓA DATA và gắn cứng với key:\n
+eX	Xác nhận Cài ROM
+ex	===== Cài ROM 
+eY	 máy (SONG SONG, anchor theo Recovery ID) =====
+ey	✗ chưa ở recovery — Reboot recovery trước
+eZ	chưa ở recovery, bỏ qua
+ez	đang hỏi ROM...
+FA	getprop ro.product.device
+Fa	getprop ro.product.model
+FB	getprop ro.product.vendor.device
+Fb	getprop ro.build.product
+FC	getprop ro.product.vendor.model
+Fc	✗ ROM chưa sẵn (
+FD	ROM chưa sẵn trên server
+Fd	đang cài ROM...
+FE	) =====
+Fe	✘ 
+FF	✔ 
+Ff	✗ cài lỗi
+FG	✓ cài xong
+Fg	Chưa kích hoạt online — không lấy được identity từ server
+FH	Nhập WiFi dạng SSID|mật khẩu
+Fh	 --window-y 
+FI	 --max-size 760
+Fi	Nhập link Shopee cần mở
+FJ	Chọn 1 APK trong combobox (thả file .apk/.xapk vào thư mục APK\).
+Fj	Không thấy file: 
+FK	[apk đơn] cài: 
+Fk	 — giữ data (-r)
+FL	[kb] đã lưu kịch bản (
+Fl	 bước) → 
+FM	 — ⏳ ĐANG CHẠY...
+Fm	[log] đang thu thập + gửi log lên server...
+FN	=== DIAG 
+Fn	yyyy-MM-dd HH:mm:ss
+FO	 ===
+Fo	key=
+FP	 hwid=
+Fp	device serial=
+FQ	 state=
+Fq	props: 
+FR	"getprop ro.product.model; getprop ro.product.device; getprop ro.twrp.version; [ -f /sbin/logadec ] && echo logadec=yes || echo logadec=no"
+Fr	device: (chưa chọn máy)
+FS	device info lỗi: 
+Fs	\n--- log phiên hiện tại ---
+FT	(acc |RESTORE )'[^']*'
+Ft	$1'***'
+FU	[log] kết quả gửi: 
+Fu	[log] gửi log lỗi: 
+FV	s:
+Fv	r:
+FW	srv
+Fw	week
+FX	month
+Fx	Tháng Full
+FY	1 tuần
+Fy	HẾT HẠN (
+FZ	dd/MM/yyyy
+Fz	còn 
+fA	 ngày (hết 
+fa	vô hạn
+fB	Profile: 
+fb	 — đã hết 
+fC	 free, vượt 
+fc	 × 
+fD	đ
+fd	 — còn 
+fE	 miễn phí
+fe	active
+fF	"[ -f /sbin/logadec ] && echo Y || echo N"
+ff	Y
+fG	✗ recovery lạ
+fg	✓ LogaRecovery
+fH	Sẵn sàng cài (đang ở recovery)
+fh	✗ ROM lạ/stock
+fI	✓ ROM Loga
+fi	CHƯA cài — Reboot recovery rồi Cài
+fJ	Đã cài — bỏ qua (cài lại: Reboot recovery)
+fj	máy offline/không rõ
+fK	 · đã đăng ký key
+fk	reboot...
+fL	✔ đã reboot
+fl	✗ reboot lỗi
+fM	cài apk...
+fm	✔ apk 
+fN	 ok/
+fn	cài apk rác...
+fO	✔ rác 
+fo	bơm file rác...
+fP	✗ bơm rác lỗi
+fp	✔ bơm rác xong
+fQ	hwid
+fq	cookietest
+fR	OK 
+fr	 cookie
+fS	FAIL: 
+fs	=
+fT	assettest
+ft	FAIL logaapply extract (path=
+fU	, len=
+fu	OK logaapply -> 
+fV	B)
+fv	verify-license
+fW	OK user=
+fw	 exp=
+fX	∞
+fx	 maxDev=
+fY	 plan=
+fy	activate-online
+fZ	OK activated (session saved)
+fz	dectest
+GA	OK -> 
+Ga	romtest
+GB	[rominfo] ok=
+Gb	 available=
+GC	 name=
+Gc	 rom=
+GD	 romSize=
+Gd	 decSize=
+GE	 rec=
+Ge	 reason=
+GF	[enckey] key=
+Gf	 iv=
+GG	romtest_
+Gg	[dl] recovery ok=
+GH	 err=
+Gh	 size=
+GI	 (kỳ vọng 
+Gi	wipetest
+GJ	[wipe/cmds] ok=
+Gj	 cmds=
+GK	 verify=
+Gk	   $ 
+GL	FAIL wipe: data còn tồn
+Gl	OK wipe: /data sạch
+GM	guard-setup
+Gm	FAIL guard-setup
+GN	OK guard-setup (LogaGuard sẽ TEE-provision khi boot)
+Gn	changetest
+GO	FAIL: chưa activate-online
+Go	changetest_out
+GP	samsung
+Gp	Viettel
+GQ	FAIL 
+Gq	  (backupId=
+GR	 model=
+Gr	 serial=
+GS	catalogtest
+Gs	FAIL load catalog
+GT	OK catalog: 
+Gt	 hãng, 
+GU	 nước
+Gu	, 
+GV	restoretest
+Gv	FAIL restore
+GW	OK restore -> serial mới 
+Gw	 model 
+GX	probe
+Gx	KHÓA: 
+GY	 — activate-online (hoặc GUI) trước.
+Gy	CLI_bk
+GZ	RESULT ok=
+Gz	 path=
+gA	ADB_TIMEOUT
+ga	ADB_ERR: 
+gB	 shell 
+gb	 push "
+gC	" 
+gc	 pull 
+gD	 "
+gd	devices
+gE	\trecovery
+ge	 recovery
+gF	 get-state
+gf	more than one
+gG	ambiguous
+gg	not found
+gH	no devices
+gh	device offline
+gI	error
+gi	notfound
+gJ	notrecovery:
+gj	offline
+gK	getprop sys.boot_completed
+gk	1
+gL	booted
+gl	stuck
+gM	timeout
+gm	[LogaRecovery] reboot vào recovery...
+gN	[LogaRecovery] không vào được recovery
+gn	[LogaRecovery] recovery serial = 
+gO	 (định danh recovery bất biến)
+go	[LogaRecovery] chờ khởi động (
+gP	s)...
+gp	[LogaRecovery] sẵn sàng
+gQ	devices -l
+gq	List of
+gR	model:(\S+)
+gr	http://+:
+gS	http://localhost:
+gs	http://127.0.0.1:
+gT	không mở được cổng 
+gt	 (đang bị chiếm?)
+gU	ApiServer
+gu	rec
+gV	name
+gv	acc
+gW	ping
+gw	api ready
+gX	action phải là change/restore/backup (đặt ở path, vd /restore)
+gx	[api] ← 
+gY	 recovery=
+gy	 profile=
+gZ	[api] → 
+gz	LỖI
+HA	lỗi server: 
+Ha	"\s*:\s*"([^"]*)"
+HB	\
+Hb	\\
+HC	\"
+Hc	{"ok":
+HD	false
+Hd	true
+HE	,"status":"
+He	failed
+HF	success
+Hf	,"msg":"
+HG	,"
+Hg	":"
+HH	application/json; charset=utf-8
+Hh	NativeS9Manager.embedded.
+HI	loga_rt
+Hi	0.#
+HJ	0.##
+Hj	Trống
+HK	Chỉ dữ liệu
+Hk	Chỉ định danh
+HL	Đầy đủ
+Hl	meta.json
+HM	identity.txt
+Hm	model=
+HN	BackUp
+Hn	data.info
+HO	data.*.win*
+Ho	pub 65B
+HP	anchor 
+Hp	 không sẵn sàng (
+HQ	[đổi máy] đang chuẩn bị máy...
+Hq	không vào được recovery
+HR	[đổi máy] recovery serial = 
+Hr	[đổi máy] romVer = 
+HS	v1 cũ
+Hs	v2 sig
+HT	[đổi máy] khôi phục danh tính từ server...
+Ht	[đổi máy] xin danh tính từ server...
+HU	server từ chối: 
+Hu	lid_
+HV	.backup
+Hv	/data/logaid.backup
+HW	[đổi máy] đang áp cấu hình...
+Hw	"mount /data 2>/dev/null; mount -o rw /data 2>/dev/null"
+HX	/tmp/logaapply
+Hx	"chmod 0755 /tmp/logaapply 2>/dev/null; /tmp/logaapply /data/logaid.backup /tmp/idpack.zip; echo LA=$?"
+HY	"echo backup=$(wc -c </data/logaid.backup) zip=$(wc -c </tmp/idpack.zip); dd if=/tmp/idpack.zip bs=1 count=4 2>/dev/null | od -An -tx1"
+Hy	[dbg] logaapply out: 
+HZ	[dbg] 
+Hz	 (504b=PK ok)
+hA	LA=0
+ha	seed
+hB	[đổi máy] đang khởi tạo máy...
+hb	[dbg] logaapply retry: 
+hC	[đổi máy] ⚠ khởi tạo máy lỗi: 
+hc	"rm -f /data/logaid.backup /tmp/idpack.zip"
+hD	giải mã danh tính lỗi (seed máy hỏng; nếu vừa tự provision vẫn lỗi → kiểm tra LogaRecovery đúng chưa): 
+hd	"rm -rf /tmp/idtree; mkdir -p /tmp/idtree; cd /tmp/idtree && unzip -o /tmp/idpack.zip >/dev/null 2>&1"
+hE	"[ -f /tmp/idtree/system_root/system/build.prop ] && echo TREE_OK || echo TREE_MISS"
+he	TREE_OK
+hF	[đổi máy] đồng bộ định danh máy...
+hf	[dbg] reprovision+retry healed=
+hG	 la2=
+hg	"rm -f /data/logaid.backup /tmp/idpack.zip /tmp/logaapply; rm -rf /tmp/idtree"
+hH	áp danh tính lỗi — seed máy không khớp (thử Quét lại máy; nếu vẫn lỗi kiểm tra LogaRecovery)
+hh	xin lệnh áp lỗi: 
+hI	[đổi máy] bơm Cửu Dương Thần Công vào máy...
+hi	[đổi máy] áp lần 1 chưa ăn — thử lại...
+hJ	áp cây CHƯA ĂN (build.prop chưa đổi) — HỦY, KHÔNG reboot (máy an toàn ở recovery, thử lại)
+hj	[đổi máy] format /data (giữ seed)...
+hK	"cp /data/vendor/hwcfg/seed /tmp/.sk 2>/dev/null; cp /data/vendor/hwcfg/prov_sig /tmp/.ps 2>/dev/null"
+hk	"for i in 1 2 3 4 5 6; do for m in /data /sdcard /data/media /storage/emulated /mnt/user/0/emulated; do umount $m 2>/dev/null; umount -l $m 2>/dev/null; done; [ $(mount | grep -c USERDATA) -eq 0 ] && mke2fs -t ext4 -F -b 4096 /dev/block/platform/11120000.ufs/by-name/USERDATA >/dev/null 2>&1; mount /dev/block/platform/11120000.ufs/by-name/USERDATA /data 2>/dev/null; mkdir -p /data/media 2>/dev/null; mount | grep -q ' /data ' && [ $(ls /data/app /data/data 2>/dev/null | wc -l) -eq 0 ] && break; sleep 3; done"
+hL	"mount /data 2>/dev/null; mkdir -p /data/vendor/hwcfg; if [ -s /tmp/.sk ]; then cp /tmp/.sk /data/vendor/hwcfg/seed; chmod 0666 /data/vendor/hwcfg/seed; chown 0:0 /data/vendor/hwcfg/seed; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/seed 2>/dev/null; fi; if [ -s /tmp/.ps ]; then cp /tmp/.ps /data/vendor/hwcfg/prov_sig; chmod 0644 /data/vendor/hwcfg/prov_sig; chown 0:0 /data/vendor/hwcfg/prov_sig; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/prov_sig 2>/dev/null; fi; rm -f /tmp/.sk /tmp/.ps"
+hl	\nserial=
+hM	\n
+hm	"mount /data 2>/dev/null; mkdir -p /data/local/tmp; chmod 0771 /data/local/tmp; chown 2000:2000 /data/local/tmp; printf '
+hN	' > /data/local/tmp/loga_id.txt; chmod 0644 /data/local/tmp/loga_id.txt; chown 2000:2000 /data/local/tmp/loga_id.txt; chcon u:object_r:shell_data_file:s0 /data/local/tmp /data/local/tmp/loga_id.txt 2>/dev/null"
+hn	[đổi máy] ghi định danh máy: recovery_id=
+hO	"umount -l /system_root 2>/dev/null; umount -l /system 2>/dev/null; twrp unmount system 2>/dev/null; sync"
+ho	[đổi máy] chờ máy khởi động (thử lần 
+hP	/3)...
+hp	[đổi máy] chờ máy khởi động...
+hQ	[đổi máy] boot lâu chưa lên — reboot lại (lần 
+hq	[đổi máy] máy VẪN kẹt ở recovery (reboot chưa ăn) — unstick mạnh + reboot lại (lần 
+hR	boot lâu/lỗi sau 3 lần thử reboot — kiểm tra máy/cáp
+hr	[đổi máy] đã thực thi Cửu Âm Chân Kinh.
+hS	✔ Đổi máy xong: 
+hs	 / 
+hT	Đổi máy lỗi: 
+ht	"mkdir -p /system_root 2>/dev/null; mount /dev/block/platform/11120000.ufs/by-name/SYSTEM /system_root 2>/dev/null; mount /system_root 2>/dev/null; mount /system 2>/dev/null; mount -o ro /system 2>/dev/null"
+hU	"grep -h '^ro.loga.romver=' /system_root/system/build.prop /system/system/build.prop /system/build.prop 2>/dev/null | head -n1"
+hu	=2
+hV	=1
+hv	"for so in /system_root/system/lib64/libandroid_runtime.so /system/system/lib64/libandroid_runtime.so /system/lib64/libandroid_runtime.so; do [ -f $so ] || continue; c=$(grep -a -c prov_sig $so 2>/dev/null); [ -z \"$c\" ] && c=$(grep -c prov_sig $so 2>/dev/null); [ -z \"$c\" ] && c=$(strings $so 2>/dev/null | grep -c prov_sig 2>/dev/null); [ -z \"$c\" ] && c=$(tr -c '[:print:]' '\n' < $so 2>/dev/null | grep -c prov_sig 2>/dev/null); echo RV=${c:-x}; break; done"
+hW	RV=
+hw	[dbg] .so grep vô hiệu — coi là v2
+hX	[dbg] không thấy .so engine (mount system fail?) — mặc định v2
+hx	[dbg] DetectRomVer lỗi: 
+hY	"grep -h '^ro.boot.serialno2=' /system_root/system/build.prop 2>/dev/null"
+hy	[dbg] brand-fw: server không trả (
+hZ	null
+hz	) — bỏ qua
+IA	"mkdir -p /system_root 2>/dev/null; mount /dev/block/platform/11120000.ufs/by-name/SYSTEM /system_root 2>/dev/null; mount /system_root 2>/dev/null; mount -o rw,remount /dev/block/platform/11120000.ufs/by-name/SYSTEM /system_root 2>/dev/null; mount -o rw,remount /system_root 2>/dev/null; mount /system 2>/dev/null; mount -o rw,remount /system 2>/dev/null; mount -o rw,remount / 2>/dev/null"
+Ia	"sr=/system_root/system; [ -f $sr/build.prop ] || sr=/system/system; [ -f $sr/build.prop ] || sr=/system; printf %s \"$sr\""
+IB	/system_root/system
+Ib	[dbg] brand-fw system-root = 
+IC	"rm -f 
+Ic	 2>/dev/null"
+ID	bfw_
+Id	"mkdir -p 
+IE	"chmod 0644 
+Ie	 2>/dev/null; chown 0:0 
+IF	 2>/dev/null; chcon 
+If	u:object_r:system_file:s0
+IG	"[ -f 
+Ig	 ] && echo OK"
+IH	[dbg] brand-fw: '
+Ih	' không cần file (google/AOSP) — chỉ dọn cũ
+II	[dbg] brand-fw: đặt 
+Ii	 file cho '
+IJ	' (
+Ij	[dbg] brand-fw lỗi (bỏ qua, không chặn Change): 
+IK	Cookies
+Ik	Không thấy file Cookies (chưa backup dữ liệu app?)
+IL	lgck_
+Il	SELECT host_key, name, COALESCE(value,''), path, expires_utc FROM cookies ORDER BY host_key, name
+IM	Đọc cookie lỗi: 
+Im	; 
+IN	phiên
+In	[wifi] bật wifi + kết nối '
+IO	svc wifi enable
+Io	\" wpa2 \"
+IP	\" open
+Ip	"cmd -w wifi connect-network 
+IQ	SecurityException
+Iq	does not have access
+IR	[wifi] LỖI (ROM chặn shell?): 
+Ir	[wifi] 
+IS	"cmd wifi status 2>/dev/null"
+Is	Wifi is connected to
+IT	Supplicant state: COMPLETED
+It	[wifi] CHƯA nối được:\n
+IU	[wifi] ✔ đã nối (SSID hiển thị đã bị giả theo profile)
+Iu	[reboot] khởi động lại máy 
+IV	[reboot] LỖI: 
+Iv	[reboot] đã gửi lệnh (máy đang khởi động lại)
+IW	[link] chưa nhập link
+Iw	[link] mở trong Shopee: 
+IX	"am start -a android.intent.action.VIEW -d '
+Ix	' com.shopee.vn"
+IY	[link] LỖI: 
+Iy	[link] ✔ đã mở
+IZ	 — 
+Iz	[apk] không thấy thư mục 
+iA	[apk] thư mục trống (bỏ file .apk/.xapk vào)
+ia	[apk] bốc ngẫu nhiên 
+iB	 apk trong kho
+ib	.apk
+iC	[apk] ✔ 
+ic	[apk] ✗ 
+iD	[apk] xong: 
+id	 OK / 
+iE	[apk] lỗi cài 
+ie	 install -r -g "
+iF	Success
+if	wapk_
+iG	[apk] giải nén 
+ig	*.apk
+iH	[apk] bundle không có .apk
+ih	manifest.json
+iI	package_name
+ii	 install-multiple -r -g 
+iJ	[apk] install-multiple: 
+ij	*.obb
+iK	mkdir -p /sdcard/Android/obb/
+ik	/sdcard/Android/obb/
+iL	[apk] pushed obb → 
+il	"df -k /data 2>/dev/null | tail -1"
+iM	[rác] không đọc được dung lượng trống
+im	[rác] không đủ chỗ (trống 
+iN	GB)
+in	mkdir -p /data/local/tmp/.pchjunk
+iO	/data/local/tmp/.pchjunk/j_
+io	.bin
+iP	[rác] bơm ~
+ip	GB (trống 
+iQ	GB)...
+iq	"fallocate -l 
+iR	 && echo FALLOC_OK || echo FALLOC_FAIL"
+ir	FALLOC_OK
+iS	[rác] không fallocate được → dd /dev/zero (chậm hơn, chờ)...
+is	dd if=/dev/zero of=
+iT	 bs=1048576 count=
+it	"du -m 
+iU	 2>/dev/null | cut -f1"
+iu	[rác] bơm THẤT BẠI: 
+iV	[rác] ✔ đã bơm ~
+iv	MB → 
+iW	 (trống còn ~
+iw	[kb] mở Shopee...
+iX	monkey -p com.shopee.vn -c android.intent.category.LAUNCHER 1
+ix	Bắt Đầu|START|Bat Dau
+iY	bat_dau
+iy	Trở về trang chủ|Trang chủ|HOME
+iZ	ve_trang_chu
+iz	Thử lại|Thu lai|RETRY
+JA	thu_lai
+Ja	[kb] ✔ xong kịch bản
+JB	[kb] đợi 
+Jb	s...
+JC	Images
+Jc	uiautomator dump --compressed /sdcard/pcui.xml
+JD	dumped to
+Jd	[kb] uiautomator dump lỗi (màn hình đang động?)
+JE	cat /sdcard/pcui.xml
+Je	<node\b[^>]*?>
+JF	text="([^"]*)"
+Jf	content-desc="([^"]*)"
+JG	bounds="\[(\d+),(\d+)\]\[(\d+),(\d+)\]"
+Jg	input tap 
+JH	[kb] ✔ bấm '
+Jh	' @ 
+JI	,
+Ji	[kb] lỗi tìm text: 
+JJ	[kb] mở app 
+Jj	monkey -p 
+JK	 -c android.intent.category.LAUNCHER 1
+Jk	[kb] (
+JL	) chỉ đợi 
+Jl	) tìm & bấm '
+JM	[kb] ⚠ không thấy '
+Jm	' → bỏ qua bước này
+JN	[kb] lỗi kịch bản: 
+Jn	.png
+JO	[kb] tap '
+Jo	 (toạ độ)
+JP	scrcpy.exe
+Jp	[scrcpy] không thấy scrcpy.exe trong runtime
+JQ	 --window-title "
+Jq	" --no-audio --stay-awake --turn-screen-off
+JR	ADB
+Jr	SCRCPY_SERVER_PATH
+JS	scrcpy-server
+Js	[scrcpy] mở màn hình 
+JT	[scrcpy] lỗi: 
+Jt	Môi trường không hợp lệ. Đóng công cụ gỡ lỗi/bắt gói rồi mở lại.
+JU	Loga
+Ju	fiddler
+JV	fiddlereverywhere
+Jv	charles
+JW	mitmproxy
+Jw	mitmdump
+JX	mitmweb
+Jx	wireshark
+JY	dumpcap
+Jy	tshark
+JZ	rawcap
+Jz	httptoolkit
+jA	httpdebuggerui
+ja	httpdebugger
+jB	httpanalyzerstd
+jb	burpsuite
+jC	burp
+jc	dnspy
+jD	dnspy-x86
+jd	ilspy
+jE	de4dot
+je	x64dbg
+jF	x32dbg
+jf	ollydbg
+jG	ida
+jg	ida64
+jH	idaq
+jh	idaq64
+jI	processhacker
+ji	reflector
+jJ	justdecompile
+jj	wpepro
+jK	megadumper
+jk	extremedumper
+jL	scylla
+jl	scylla_x64
+jM	 logcat -c
+jm	am start -n com.loga.guard/.TriggerActivity --es mode check
+jN	 logcat -d -s LogaGuard
+jn	LOGA_STATUS=([A-Za-z0-9:_]+)
+jO	TIMEOUT
+jo	guard-check lỗi: 
+jP	ERR:tool
+jp	 exec-out screencap -p
+jQ	[kb] tap ảnh '
+jq	 (khớp 
+jR	P0
+jr	[kb] không thấy ảnh '
+jS	' sau 
+js	s
+jT	[kb] lỗi tap ảnh: 
+jt	getprop ro.twrp.version
+jU	getprop ro.twrp.boot
+ju	"ls /sbin/twrp 2>/dev/null"
+jV	twrp
+jv	Không thấy máy nào (adb devices rỗng).\nCắm S9 qua USB — đang ở TWRP, hoặc đã boot + bật USB debugging.
+jW	Máy đang ở TWRP (ver 
+jw	) — sẵn sàng cài ROM.
+jX	Máy đang ở recovery nhưng KHÔNG phải TWRP (không thấy lệnh twrp).\nCần TWRP/LogaRecovery để cài ROM — flash TWRP trước rồi thử lại.
+jx	Máy đang ở HỆ ĐIỀU HÀNH (đã boot), CHƯA ở recovery.\nCài ROM cần máy ở recovery (TWRP). Cho tool tự reboot vào recovery?
+jY	Máy ở trạng thái '
+jy	' (offline/unauthorized?).\nKiểm tra lại cáp USB / cho phép USB debugging.
+jZ	Microsoft
+jz	CLR_v4_cache
+KA	thiếu license key (paid) để provision
+Ka	[cài] đưa máy vào recovery...
+KB	reboot recovery xong không thấy đúng máy ở recovery (TWRP) — kiểm tra lại
+Kb	máy chưa ở recovery (TWRP) — đưa máy vào recovery rồi Cài ROM
+KC	[cài] máy đang ở HĐH — reboot vào recovery...
+Kc	máy đang ở hệ điều hành, CHƯA ở recovery — đưa máy vào recovery (TWRP) rồi Cài ROM
+KD	không thấy máy ở recovery — cắm máy + vào recovery (TWRP) rồi Cài ROM
+Kd	reboot recovery xong không thấy máy ở recovery (TWRP) — kiểm tra lại
+KE	máy chưa ở chế độ cài đặt phù hợp — thử lại
+Ke	[cài] máy đã ở chế độ cài đặt.
+KF	không thể cài máy này: 
+Kf	[cài] kiểm tra bản quyền OK (máy 
+KG	 của key).
+Kg	r_
+KH	.img
+Kh	[cài] chuẩn bị dữ liệu...
+KI	tải dữ liệu lỗi: 
+Ki	[cài] đẩy dữ liệu vào máy...
+KJ	/tmp/lr.img
+Kj	"dd if=/tmp/lr.img of=/dev/block/platform/11120000.ufs/by-name/RECOVERY bs=4M 2>&1; sync; rm -f /tmp/lr.img; echo DD=$?"
+KK	DD=0
+Kk	[cài] ⚠ có cảnh báo khi cài đặt
+KL	[cài] khởi động lại máy...
+Kl	máy không phản hồi sau khi khởi động lại
+KM	"[ -f /sbin/logadec ] && echo LOGA || echo STOCK"
+Km	LOGA
+KN	máy chưa sẵn sàng cài ROM — thử lại
+Kn	[cài] máy sẵn sàng cài ROM.
+KO	z_
+Ko	.enc
+KP	[cài] tải ROM (~1.5GB)...
+Kp	tải ROM lỗi: 
+KQ	[cài] đẩy ROM vào máy (~vài phút)...
+Kq	/data/logarom.enc
+KR	"wc -c < /data/logarom.enc 2>/dev/null"
+Kr	[cài] đẩy xong: PC=
+KS	B máy=
+Ks	B
+KT	đẩy ROM vào máy LỖI — kích thước lệch (PC 
+Kt	 vs máy 
+KU	). Thử: chạy tool bằng QUYỀN ADMIN, đổi cổng/cáp USB, rồi cài lại.
+Ku	[cài] xử lý ROM trên máy...
+KV	"/sbin/logadec /data/logarom.enc /data/logarom.zip; echo DEC=$?"
+Kv	[cài] logadec: 
+KW	DEC=0
+Kw	"rm -f /data/logarom.enc /data/logarom.zip"
+KX	DEC=134
+Kx	 (DEC=134 = logadec crash TLS-align → recovery S9+/Note9 cần build lại)
+KY	giải mã ROM (logadec) LỖI: 
+Ky	"wc -c < /data/logarom.zip 2>/dev/null"
+KZ	[cài] zip giải mã: 
+Kz	giải mã ROM ra file RỖNG (sz=
+kA	) — logadec chạy nhưng không ghi được zip
+ka	[cài] đang cài ROM (~2-3 phút)...
+kB	"echo '' > /tmp/recovery.log"
+kb	"twrp install /data/logarom.zip; echo IRC=$?"
+kC	"tail -40 /tmp/recovery.log 2>/dev/null"
+kc	Done processing script file
+kD	Updater process ended with RC=0
+kd	script succeeded
+kE	cài ROM (twrp install) LỖI — recovery.log: 
+ke	[cài] cài ROM xong.
+kF	[cài] xóa dữ liệu cũ...
+kf	"cp /data/vendor/hwcfg/seed /tmp/.sk 2>/dev/null"
+kG	xóa dữ liệu cũ thất bại — data còn tồn (thử cài lại)
+kg	[cài] hoàn tất cấu hình...
+kH	cấu hình máy lỗi
+kh	"if [ -s /tmp/.sk ]; then cp /tmp/.sk /data/vendor/hwcfg/seed; chmod 0666 /data/vendor/hwcfg/seed; chown 0:0 /data/vendor/hwcfg/seed; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/seed 2>/dev/null; fi; rm -f /tmp/.sk"
+kI	[cài] xong — khởi động lại máy.
+ki	[cài] máy chưa rời recovery — reboot lại (
+kJ	"reboot"
+kj	Cài ROM xong nhưng máy CHƯA rời recovery sau 3 lần reboot — rút/cắm lại hoặc reboot tay.
+kK	Cài ROM hoàn tất.
+kk	Cài ROM lỗi: 
+kL	[wipe] verify còn: 
+kl	"twrp format data 2>&1"
+kM	"mount /dev/block/platform/11120000.ufs/by-name/USERDATA /data 2>/dev/null; mount /data 2>/dev/null"
+km	"for m in /data /sdcard /data/media /storage/emulated /mnt/user/0/emulated; do umount -f $m 2>/dev/null; umount -l $m 2>/dev/null; done"
+kN	"mke2fs -t ext4 -F -b 4096 /dev/block/platform/11120000.ufs/by-name/USERDATA 2>&1"
+kn	"ls /data/app /data/data 2>/dev/null | head"
+kO	com.shopee.vn
+ko	Trở về trang chủ|Trang chủ
+kP	Thử lại|Thu lai
+kp	license.dat
+kQ	HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography
+kq	MachineGuid
+kR	C:\
+kr	|
+kS	x2
+ks	key rỗng
+kT	key sai định dạng
+kt	key sai định dạng (base64)
+kU	BHsUOCahGBYsq301zo9moCidiYSnD3wOQv3xpudrvpxnaMwo8pl8SOGA9D3p3z/colIBvCt+M811KScrPuEPd3c=
+ku	chữ ký sai (key giả hoặc bị sửa)
+kV	lỗi verify: 
+kv	payload hỏng
+kW	payload rỗng
+kw	license không dành cho máy này (HWID lệch)
+kX	license hết hạn (
+kx	Chưa kích hoạt
+kY	License lỗi: 
+ky	Đã kích hoạt — 
+kZ	 (hạn 
+kz	 (vô hạn)
+LA	==
+La	pub raw phải 65B (0x04||X||Y)
+LB	session.dat
+Lb	Chưa kích hoạt (online)
+LC	Session hết hạn — kích hoạt lại
+Lc	Đã kích hoạt (online) — còn 
+LD	h
+Ld	Đã tự gia hạn — còn 
+LE	Session hết hạn, tự gia hạn thất bại (
+Le	) — kích hoạt lại
+LF	HwcfgProbe.apk
+Lf	..
+LG	[probe] KHÔNG thấy HwcfgProbe.apk — build commercial/probe/build_probe.sh trước
+Lg	[probe] cài HwcfgProbe.apk...
+LH	INSTALL_FAILED_UPDATE_INCOMPATIBLE
+Lh	signatures do not match
+LI	 uninstall com.loga.hwcfgprobe
+Li	[probe] install: 
+LJ	pm grant com.loga.hwcfgprobe android.permission.READ_PHONE_STATE 2>/dev/null
+Lj	logcat -c
+LK	am start -W -n com.loga.hwcfgprobe/.MainActivity
+Lk	logcat -d -s HWCFGPROBE:I
+LL	HWCFGPROBE: 
+Ll	HWCFGPROBE
+LM	BEGIN
+Lm	END
+LN	IMEI(priv)
+Ln	"service call iphonesubinfo 1 s16 com.android.shell 2>/dev/null"
+LO	'([^']*)'
+Lo	[probe] không đọc được gì (engine chưa enabled? chưa Change / chưa boot?)
+LP	==== HWCFG PROBE (tầng app) ====
+Lp	-- build.prop identity (SystemProperties/Build — Shopee đọc chính ở đây) --
+LQ	Build.MODEL
+Lq	Build.BRAND
+LR	Build.DEVICE
+Lr	Build.MANUFACTURER
+LS	Build.FINGERPRINT
+Ls	Build.getSerial
+LT	ro.product.model
+Lt	ro.serialno
+LU	ro.board.platform
+Lu	ro.bootloader
+LV	 = 
+Lv	<rỗng>
+LW	-- telephony (TelephonyManager — path thật app đọc SIM/IMEI) --
+Lw	TM.networkOperator
+LX	TM.simOperator
+Lx	TM.simOperatorName
+LY	TM.simCountryIso
+Ly	TM.getImei
+LZ	TM.getSubscriberId
+Lz	TM.getSimSerialNumber
+lA	TM.getLine1Number
+la	---- verify ----
+lB	  Build.MODEL 
+lb	LỆCH ✗
+lC	KHỚP ✓
+lc	: got='
+lD	' exp='
+ld	  ⚠ Build.MODEL('
+lE	') != ro.product.model('
+le	') — nhất quán kém
+lF	<err
+lf	<null>
+lG	  IMEI (app/TM.getImei) = '
+lg	' 
+lH	→ app KHÔNG đọc được (A13 chặn getImei, chống detect ✓)
+lh	  IMEI (privileged/modem) = '
+lI	<ẩn — imei_visible=0>
+li	  ⓘ IMEI modem ('
+lJ	') != Utils IMEI ('
+lj	') — ĐÚNG NHƯ THIẾT KẾ: modem/EFS IMEI KHÔNG
+lK	    spoof được ở tầng ROM (cần patch modem/EFS). Chỉ reader ROOT/privileged thấy; app Shopee bị chặn getImei.
+lk	  SIM operator (TM) = 
+lL	 (telephony-spoof tới app ✓)
+ll	==> PROBE có field LỆCH
+lM	==> PROBE PASS
+lm	ghi slot seed lỗi
+lN	[provision] ⚠ server không trả provSig (server cũ?) — engine mới sẽ từ chối seed
+ln	provision OK (seed + prov_sig đã ghi slot)
+lO	provision lỗi: 
+lo	response rỗng
+lP	server: 
+lp	act|
+lQ	[provision] !! chữ ký server SAI — nghi MITM, HỦY
+lq	chữ ký server sai
+lR	unseal seed lỗi
+lr	[provision] seed nhận + unseal OK (
+lS	B) cho máy 
+ls	"mount /data 2>/dev/null; mkdir -p /data/vendor/hwcfg"
+lT	"printf %s '
+lt	' > /data/vendor/hwcfg/prov_sig"
+lU	"chmod 0644 /data/vendor/hwcfg/prov_sig; chown 0:0 /data/vendor/hwcfg/prov_sig; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/prov_sig 2>/dev/null"
+lu	[provision] ghi prov_sig (LỚP 1)
+lV	[provision] ghi prov_sig lỗi: 
+lv	' > 
+lW	/data/vendor/hwcfg/seed
+lw	"chmod 0640 /data/vendor/hwcfg/seed; chown 0:0 /data/vendor/hwcfg/seed; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/seed 2>/dev/null"
+lX	"wc -c < /data/vendor/hwcfg/seed 2>/dev/null"
+lx	[provision] ghi slot 
+lY	 bytes)
+ly	[provision] ghi slot lỗi: 
+lZ	"printf '' > /data/vendor/hwcfg/seed; chmod 0666 /data/vendor/hwcfg/seed; chown 0:0 /data/vendor/hwcfg/seed; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/seed 2>/dev/null"
+lz	"printf '
+MA	' > /data/vendor/hwcfg/provision; chmod 0644 /data/vendor/hwcfg/provision; chown 0:0 /data/vendor/hwcfg/provision; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/provision 2>/dev/null"
+Ma	"ls /data/vendor/hwcfg/ 2>/dev/null"
+MB	[guard] slot rỗng + provision file cho 
+Mb	 (ls: 
+MC	provision
+Mc	[guard] setup lỗi: 
+MD	pub raw 65B
+Md	/rom/info
+ME	lỗi mạng: 
+Me	/catalog
+MF	/brandfw
+Mf	/identity/new
+MG	/identity/restore
+Mg	/apply/cmds
+MH	/license/quota
+Mh	/devices/list
+MI	/devices/free
+Mi	/farm/clean
+MJ	/wipe/cmds
+Mj	/rom/claim
+MK	/rom/dl?f=
+Mk	&t=
+ML	HTTP 
+Ml	text/plain
+MM	/diag/log?tag=
+Mm	anon
+MN	err:
+Mn	application/json
+MO	/activate
+Mo	/license/activate
+MP	[LogaRecovery] xoá file rác trước khi backup...
+Mp	[LogaRecovery] anchor 
+MQ	[LogaRecovery] anchor recovery serial = 
+Mq	[máy] đang sao lưu dữ liệu (chờ ~1 phút)...
+MR	twrp backup D
+Mr	BACKUP COMPLETED
+MS	[máy] sao lưu thất bại:\n
+Ms	Backup Folder:
+MT	[máy] sao lưu lỗi (không đọc được thư mục)
+Mt	[máy] đang lưu về máy tính...
+MU	[máy] sao lưu xong → 
+Mu	"mount /dev/block/platform/11120000.ufs/by-name/SYSTEM /system_root 2>/dev/null; mount -o ro,remount /system_root 2>/dev/null"
+MV	/system_root/system/Utils/.
+Mv	[máy] lưu cấu hình tài khoản
+MW	[máy] cấu hình đã có → bỏ qua
+Mw	"mount /data 2>/dev/null; mount /dev/block/platform/11120000.ufs/by-name/USERDATA /data 2>/dev/null"
+MX	 pull /data/data/com.shopee.vn/shared_prefs/SPHelper_sp_main.xml 
+Mx	 pull /data/data/com.shopee.vn/shared_prefs/device_config.xml 
+MY	 pull /data/data/com.shopee.vn/app_webview_com.shopee.vn/Default/Cookies 
+My	 pull /data/data/com.shopee.vn/shared_prefs/login.xml 
+MZ	[máy] sao lưu dữ liệu ứng dụng
+Mz	[máy] sao lưu dữ liệu ứng dụng lỗi (bỏ qua)
+mA	[máy] tài khoản chưa được cấu hình (chưa Đổi máy)
+ma	[restore] 
+mB	[máy] đã thực thi Cửu Âm Chân Kinh
+mb	[máy] Cửu Âm Chân Kinh: không nhận được lệnh (bỏ qua)
+mC	[máy] Cửu Âm Chân Kinh lỗi (bỏ qua)
+mc	CauHinhSinh
+mD	 { 
+md	Brand = 
+mE	, BrandRand = 
+me	, Model = 
+mF	, ModelRand = 
+mf	, Country = 
+mG	, CountryRand = 
+mg	, Sim = 
+mH	, SimRand = 
+mh	, AndroidVer = 
+mI	, AndroidRand = 
+mi	.xapk
+mJ	.apks
+mj	.apkm
+mK	Random
+mk	Đổi tên lỗi (rỗng / trùng folder khác). Data giữ nguyên, chưa đổi.
+mL	Lỗi
+ml	===== RESTORE '
+mM	' → máy 
+mm	 =====
+mN	[LỖI] không vào được recovery để restore
+mn	✔ restore xong
+mO	[LỖI] restore thất bại
+mo	[OK] restore xong (đang reboot)
+mP	shopee
+mp	Đã copy chuỗi cookie .shopee.vn vào clipboard.
+mQ	Đã gửi log lên server:\n
+mq	\n\nBáo mã file này cho kỹ thuật để chẩn đoán.
+mR	Gửi log phân tích
+mr	[lỗi] 
+mS	  ·  
+ms	  (
+mT	✗ lỗi kiểm tra: 
+mt	 · 
+mU	Không có backup nào 'chưa dùng' (RestoreCount = 0) trong thư mục backup.
+mu	Chỉ có 
+mV	 backup chưa dùng < 
+mv	 máy — các máy dư để trống.
+mW	Lỗi lấy backup: 
+mw	Cổng không hợp lệ (1-65535).
+mX	Bật API lỗi: 
+mx	\n(Chạy tool bằng quyền Administrator, hoặc đổi cổng khác.)
+mY	[api] server BẬT ở cổng 
+my	Đang tải danh sách máy...
+mZ	Chọn 1 máy trong danh sách trước.
+mz	Gỡ máy '
+NA	' khỏi key?\nSau khi gỡ, slot được trả về — máy này muốn dùng lại phải Cài ROM lại.
+Na	Xác nhận gỡ máy
+NB	Lỗi: 
+Nb	không tải được
+NC	Key đang gắn 
+Nc	 máy.  (Gỡ 1 máy để trả slot, cài máy khác.)
+ND	không gỡ được
+Nd	\nCòn 
+NE	 máy.
+Ne	Gỡ máy
+NF	[đổi máy] kiểm xác thực máy...
+Nf	Máy chưa xác thực được. Vui lòng nhấn 'Cài WiFi' kết nối mạng cho điện thoại rồi làm lại.
+NG	Máy chưa cài đặt định danh (chưa Cài ROM qua tool). Vào tab 'Cài ROM' cài trước.
+Ng	[đổi máy] ⊘ 
+NH	[đổi máy] xác thực OK.
+Nh	[LỖI] không vào được recovery để backup
+NI	[LỖI] sao lưu thất bại → DỪNG, không đổi máy
+Ni	Chưa xác thực
+NJ	🔑 Gói 
+Nj	Số dư: 
+NK	n0
+Nk	✓ đã ở recovery
+NL	reboot recovery...
+Nl	✓ đã vào recovery
+NM	✗ lỗi: 
+Nm	chuẩn bị backup...
+NN	✗ chưa có Recovery ID — backup đơn 1 lần trước
+Nn	sao lưu...
+NO	✔ backup xong
+No	✗ không thấy backup
+NP	không thấy 
+Np	cài wifi...
+NQ	✗ wifi lỗi
+Nq	✔ wifi xong
+NR	mở link...
+Nr	✗ link lỗi
+NS	✔ đã mở link
+Ns	cài 
+NT	chạy kịch bản...
+Nt	✔ kịch bản xong
+NU	Device
+Nu	Serial = 
+NV	, State = 
+Nv	salt
+NW	/system/
+Nw	Row
+NX	Host = 
+Nx	, Name = 
+NY	, Value = 
+Ny	, Path = 
+NZ	, Expires = 
+Nz	Error
+nA	Exception
+na	does not exist
+nB	  ↓ ROM 
+nb	RomInfoResp
+nC	ok = 
+nc	, reason = 
+nD	, available = 
+nd	, name = 
+nE	, romFile = 
+ne	, romSize = 
+nF	, recFile = 
+nf	, recSize = 
+nG	, dlToken = 
+ng	, encKey = 
+nH	, encIv = 
+nh	, decSize = 
+nI	RomInfoReqC
+ni	session = 
+nJ	, hwid = 
+nj	, device = 
+nK	, model = 
+nk	RomClaimResp
+nL	, used = 
+nl	, max = 
+nM	RomClaimReqC
+nm	, recovery = 
+nN	CatModel
+nn	brand = 
+nO	, hostSoc = 
+no	, androidVer = 
+nP	CountrySim
+np	country = 
+nQ	, sims = 
+nq	CatalogResp
+nR	, models = 
+nr	, countrySims = 
+nS	CatalogReqC
+ns	IdPackResp
+nT	, backupId = 
+nt	, backupB64 = 
+nU	, serial = 
+nu	, screenW = 
+nV	, screenH = 
+nv	, screenDpi = 
+nW	, lat = 
+nw	, lon = 
+nX	, brightness = 
+nx	, board = 
+nY	, platform = 
+ny	, brand = 
+nZ	, provSig = 
+nz	BrandFwFile
+OA	dst = 
+Oa	, b64 = 
+OB	, ctx = 
+Ob	BrandFwResp
+OC	, files = 
+Oc	, cleanup = 
+OD	BrandFwReqC
+Od	IdNewReqC
+OE	, brandRandom = 
+Oe	, modelRandom = 
+OF	, country = 
+Of	, sim = 
+OG	, simRandom = 
+Og	, imeiVisible = 
+OH	, androidRandom = 
+Oh	, romVer = 
+OI	IdRestoreReqC
+Oi	ApplyCmdsResp
+OJ	, applyCmds = 
+Oj	, farmCmds = 
+OK	ApplyCmdsReqC
+Ok	, tatGps = 
+OL	QuotaResp
+Ol	, plan = 
+OM	, expiry = 
+Om	, expEpoch = 
+ON	, freeProfiles = 
+On	, overageUnitXu = 
+OO	, balanceXu = 
+Oo	, planName = 
+OP	QuotaReqC
+Op	DevInfo
+OQ	recoverySerial = 
+Oq	, status = 
+OR	, lastSeen = 
+Or	DevListResp
+OS	, devices = 
+Os	DevListReqC
+OT	DevFreeResp
+Ot	DevFreeReqC
+OU	FarmCleanResp
+Ou	, cleanCmds = 
+OV	FarmCleanReqC
+Ov	WipeResp
+OW	, cmds = 
+Ow	, verifyCmd = 
+OX	WipeReqC
+Ox	key
+OY	reason
+Oy	session
+OZ	exp
+Oz	tatGps
+oA	applyCmds
+oa	farmCmds
+oB	dst
+ob	b64
+oC	ctx
+oc	brand
+oD	files
+od	cleanup
+oE	models
+oe	countrySims
+oF	hostSoc
+of	androidVer
+oG	country
+og	sims
+oH	used
+oh	max
+oI	cleanCmds
+oi	brandRandom
+oJ	modelRandom
+oj	sim
+oK	simRandom
+ok	imeiVisible
+oL	androidRandom
+ol	romVer
+oM	backupB64
+om	screenW
+oN	screenH
+on	screenDpi
+oO	lat
+oo	lon
+oP	brightness
+op	board
+oQ	platform
+oq	provSig
+oR	devicePub
+or	licenseKey
+oS	ts
+os	sig
+oT	token
+ot	plan
+oU	expiry
+ou	expEpoch
+oV	freeProfiles
+ov	overageUnitXu
+oW	balanceXu
+ow	planName
+oX	available
+ox	romFile
+oY	romSize
+oy	recFile
+oZ	recSize
+oz	dlToken
+PA	encKey
+Pa	encIv
+PB	decSize
+Pb	ephPub
+PC	nonce
+Pc	ct
+PD	tag
+Pd	cmds
+PE	verifyCmd
+Pe	The converter '{0}' is not compatible with the type '{1}'.
+PF	The converter '{0}' cannot return null or a JsonConverterFactory instance.
+Pf	ActReq
+PG	key = 
+Pg	ActResp
+PH	, session = 
+Ph	, exp = 
+PI	SealedSeed
+Pi	ephPub = 
+PJ	, nonce = 
+Pj	, ct = 
+PK	, tag = 
+Pk	ProvReq
+PL	, devicePub = 
+Pl	, licenseKey = 
+PM	, ts = 
+Pm	, sig = 
+PN	ProvResp
+Pn	, seed = 
+PO	, token = 
+Po	[máy] profile không kèm data → máy đã dọn sạch, chỉ mang định danh mới
+PP	/data/media/0/TWRP/BACKUPS/
+Pp	[máy] đang đưa dữ liệu vào máy...
+PQ	"mount /data 2>/dev/null; cp /data/vendor/hwcfg/seed /tmp/.rsk 2>/dev/null; cp /data/vendor/hwcfg/prov_sig /tmp/.rps 2>/dev/null"
+Pq	"mount /data 2>/dev/null; rm -rf 
+PR	; mkdir -p 
+Pr	/restore"
+PS	/restore/
+Ps	[máy] đang khôi phục dữ liệu (chờ tới khi xong)...
+PT	"D=$(dirname $(find 
+Pt	 -name 'data.info' 2>/dev/null | head -1)); echo RDIR=$D; twrp restore $D"
+PU	[dbg] restore: 
+Pu	RESTORE COMPLETED
+PV	[máy] khôi phục dữ liệu xong
+Pv	[máy] ⚠ khôi phục dữ liệu KHÔNG hoàn tất — kiểm tra lại
+PW	 (bật Debug xem lỗi)
+Pw	"mount /data 2>/dev/null; mkdir -p /data/vendor/hwcfg; if [ -s /tmp/.rsk ]; then cp /tmp/.rsk /data/vendor/hwcfg/seed; chmod 0666 /data/vendor/hwcfg/seed; chown 0:0 /data/vendor/hwcfg/seed; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/seed 2>/dev/null; fi; if [ -s /tmp/.rps ]; then cp /tmp/.rps /data/vendor/hwcfg/prov_sig; chmod 0644 /data/vendor/hwcfg/prov_sig; chown 0:0 /data/vendor/hwcfg/prov_sig; chcon u:object_r:hwcfg_seed_file:s0 /data/vendor/hwcfg/prov_sig 2>/dev/null; fi; rm -f /tmp/.rsk /tmp/.rps"
+PX	Setting init-only properties is not supported in source generation mode.

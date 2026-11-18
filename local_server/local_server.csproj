@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>local_server</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="templates\**\*" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="catalog.json" CopyToOutputDirectory="PreserveNewest" Condition="Exists('catalog.json')" />
+  </ItemGroup>
+</Project>

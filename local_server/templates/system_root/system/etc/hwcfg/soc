@@ -1,0 +1,9 @@
+sys.usb.config=mtp
+sys.usb.state=mtp
+init.svc.adbd=stopped
+ro.boot.hardware=samsungexynos9810
+ro.hardware.chipname=samsungexynos9810
+ro.soc.model=exynos9810
+ro.soc.manufacturer=Samsung
+debug.slsi_platform=1
+ro.build.fingerprint=samsung/star2ltexx/star2lte:13/TP1A.220624.014/G965FXXUGFWA1:user/release-keys
